@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1060679193920",
+    "project_id": "lica-67fbc",
+    "storage_bucket": "lica-67fbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060679193920:android:a7708d0e3c8b20337a56a5",
+        "android_client_info": {
+          "package_name": "com.LICA.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060679193920-safjr1ntk0rigocmv3964gost48cjuro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LICA.myapplication",
+            "certificate_hash": "100d8cad041c7eeec5bb488c0aad7d0b9e78c197"
+          }
+        },
+        {
+          "client_id": "1060679193920-msru7r6u3knhdpbvrps6qk5d0msj7ggk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBhyisCuN3RR80kBhZJNHn1I40yTlv9QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060679193920-msru7r6u3knhdpbvrps6qk5d0msj7ggk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

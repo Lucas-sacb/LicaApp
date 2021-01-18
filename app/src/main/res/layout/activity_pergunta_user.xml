@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgt"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".activity.CadastroActivity">
+
+
+    <include
+        android:id="@+id/toolbarPrincipal2"
+        layout="@layout/toollbar2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageUser"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/perfil"
+            tools:src="@drawable/perfil" />
+
+        <Button
+            android:id="@+id/buttonEditPerfilUser"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/bg_acessar"
+            android:text="Alterar Foto"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editNomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nome do Usuário"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/Pergunta1User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:text="1 - Qual é o seu nível de escolaridade?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="1 - Qual é o seu nível de escolaridade?" />
+
+        <EditText
+            android:id="@+id/editPergunta1User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_school_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ensino médio completo."
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/Pergunta2User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:text="2 - Qual é a sua idade?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="2 - Qual é a sua idade?" />
+
+        <EditText
+            android:id="@+id/editPergunta2User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_timer_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="14 anos"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/Pergunta3User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:gravity="center"
+            android:text="3 - Qual é a sua área de interesse?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="3 - Qual é a sua área de interesse?" />
+
+        <EditText
+            android:id="@+id/editPergunta4User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_edit_text"
+            android:drawableLeft="@drawable/ic_work_black_24dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Aeroespacial"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBa5"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/buttonRedirectUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/bg_acessar"
+            android:padding="5dp"
+            android:text="Salvar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
