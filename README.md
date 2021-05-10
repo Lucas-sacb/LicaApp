@@ -1,2 +1,2 @@
 # LicaApp
- Aplicativo da startup LICA
+ Aplicativo LICA
